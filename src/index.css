@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: 'Recursive';
+  src: url(src/assets/fonts/Recursive-Regular.woff);
+}
+
+body {
+  font-family:'Recursive';
+  margin: 0;
+  background-color:rgba(91, 9, 9, 0.912);
+}
+.active {
+  text-decoration: underline;
+}
