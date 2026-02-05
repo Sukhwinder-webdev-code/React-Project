@@ -5,7 +5,7 @@ Built with **Vite**, **React**, and **CSS**, fully responsive and fast.
 ---
 
 ## Live Demo
-ViewLive:https://github.com/Sukhwinder-webdev-code/React-Project
+ViewLive:https://sukhwinder-webdev-code.github.io/React-Project/
 
 ---
 
