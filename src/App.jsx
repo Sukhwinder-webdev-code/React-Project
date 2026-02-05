@@ -65,7 +65,7 @@ function App() {
     <div>
       <Header />
       <Component2 handleFilteredMovies={handleFilteredMovies} setAscending={setAscending} handleOrder={handleOrder} rating={rating} setSortingCondition={setSortingCondition} />
-      <div className="grid grid-cols-2 md:grid-cols-4  p-8 gap-4">
+      <div className="grid grid-cols-1 items-center md:grid-cols-2 lg:grid-cols-4  p-8 gap-4">
         {(filteredMovies.length > 0) ?
           filteredMovies.map((movie) => (<Component3 key={movie.id} movie={movie} />)) :
           (<p className="text-center text-white text-lg m-auto w-full">No Movies to Show</p>)}
