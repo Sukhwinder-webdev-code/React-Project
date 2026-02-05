@@ -9,10 +9,11 @@ function App() {
   const [ascending, setAscending] = useState(true);  
   const [rating, setRating] = useState(0);
   const [sortingCondition, setSortingCondition] = useState('Date');
+  const API_KEY=import.meta.env.VITE_TMDB_API_KEY;
 
   useEffect(() => {
     const movies = async () => {
-      const res = await fetch('https://api.themoviedb.org/3/movie/popular?api_key=2df5e62cde7b055e3878a169fec3c3d9');
+      const res = await fetch(`https://api.themoviedb.org/3/movie/popular?api_key=${API_KEY}`);
       const data = await res.json();
       setMovies(data.results);
       setFilteredMovies(data.results);
