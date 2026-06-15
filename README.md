@@ -43,7 +43,7 @@ This project demonstrates the use of React components, state management, props h
 ## screenshots
 ![home Page](src/assets/images/home.png)
 
-![search](src/assets/images/filter,png)
+![search](src/assets/images/filter.png)
 
 ## future-improvements
 - Add user reviews and ratings
